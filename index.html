@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | [Your Name]</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo" id="nav-logo">[Your Name]</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button id="edit-profile-btn" aria-label="Edit Profile">
+                <i class="fas fa-pen"></i>
+            </button>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="container hero-content">
+            <img src="https://via.placeholder.com/150" alt="Profile Photo" id="hero-photo">
+            <h1>Hi, I'm <span class="highlight" id="hero-name">[Your Name]</span></h1>
+            <h2 id="hero-role">[Your Role, e.g., Full Stack Developer]</h2>
+            <p>I build accessible, pixel-perfect, and performant web experiences. Currently focused on building accessible, human-centered products.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p id="about-desc">I am a [Year] student at [University] pursuing a degree in [Major]. I have a passion for solving complex problems through code. Currently, I am learning [New Tech] and building [Current Project].</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light reveal">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React / Vue</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Tools</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Git & GitHub</li>
+                        <li>Command Line</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Concepts</h3>
+                    <ul>
+                        <li>REST APIs</li>
+                        <li>Data Structures</li>
+                        <li>Agile/Scrum</li>
+                        <li>Web Accessibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3 id="exp-role">[Role] Intern</h3>
+                    <h4 id="exp-company">[Company Name] | [Date Range]</h4>
+                    <ul id="exp-list">
+                        <li>Developed [Feature] resulting in [Outcome].</li>
+                        <li>Collaborated with a team of [Number] engineers to deploy [Product].</li>
+                        <li>Optimized legacy code improving performance by [X]%.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light reveal">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <h3 id="edu-degree">[Degree Name]</h3>
+                <h4 id="edu-university">[University Name] | [Graduation Year]</h4>
+                <p id="edu-courses">Relevant Coursework: Web Development, Data Structures, Algorithms, Database Systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img-placeholder">Screenshot</div>
+                    <div class="project-info">
+                        <h3>Project Name 1</h3>
+                        <p>A brief description of what this project does and the problem it solves.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img-placeholder">Screenshot</div>
+                    <div class="project-info">
+                        <h3>Project Name 2</h3>
+                        <p>A brief description of what this project does and the problem it solves.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img-placeholder">Screenshot</div>
+                    <div class="project-info">
+                        <h3>Project Name 3</h3>
+                        <p>A brief description of what this project does and the problem it solves.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>SQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-dark reveal">
+        <div class="container">
+            <h2 class="section-title text-white">Contact Me</h2>
+            <p class="text-white">Interested in working together? Let's connect.</p>
+            <div class="social-links">
+                <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/YOUR_GITHUB_USERNAME_HERE" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Edit Profile Modal -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Edit Profile</h2>
+            <form id="edit-form">
+                <label for="photo-input">Profile Photo</label>
+                <input type="file" id="photo-input" accept="image/*">
+
+                <label for="name-input">Name</label>
+                <input type="text" id="name-input" required>
+                
+                <label for="role-input">Role</label>
+                <input type="text" id="role-input" required>
+                
+                <label for="about-input">About Me</label>
+                <textarea id="about-input" rows="4" required></textarea>
+                
+                <h3 style="margin-top: 15px; color: var(--primary-color);">Experience</h3>
+                <label for="exp-role-input">Job Title</label>
+                <input type="text" id="exp-role-input">
+                <label for="exp-company-input">Company & Date</label>
+                <input type="text" id="exp-company-input">
+                <label for="exp-list-input">Details (One per line)</label>
+                <textarea id="exp-list-input" rows="4"></textarea>
+
+                <h3 style="margin-top: 15px; color: var(--primary-color);">Education</h3>
+                <label for="edu-degree-input">Degree Name</label>
+                <input type="text" id="edu-degree-input">
+                <label for="edu-university-input">University & Year</label>
+                <input type="text" id="edu-university-input">
+                <label for="edu-courses-input">Relevant Coursework</label>
+                <textarea id="edu-courses-input" rows="3"></textarea>
+
+                <button type="submit" class="btn">Save Changes</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
